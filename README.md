@@ -14,6 +14,7 @@ Command                  | Description
 Command                  | Description
 ------------------------ | -------------
 **!poll `seconds` `option 1`, `option n`** | Starts a poll. This is a pretty useful feature for broadcasters. Let's say you wanted to ask your viewers in 60 seconds what their favorite color of magic is. Ask the question in your stream, and then type "!poll 60 red, blue, green, white, black". I will count the first answer from each person, and answers are not case sensitive.
+**!strawpoll `option 1`, `option n`** | Creates a strawpoll and returns the link to chat.
 **!addcom `-ul=userlevel` !`command`** | Adds a custom command that the bot will respond to. For example: "!addcom !test Hello %user%, we are testing out this command for the %count%th time." would add a command, so when you type !test, I would respond with the text. An optional userlevel (`-ul=userlevel`) can be added to restrict this command to. If omitted, will allow anyone to use the command. Possible userlevels: broadcaster or mod." To allow anyone to use a command, don't include the "-ul" flag at all.<br />**Variables:**<br />`%user%` - User who requested it<br />`%count%` - how many times the command has been used<br />`%input%` - Any possible user input when they use the command
 **!delcom !`command`** | Deletes a custom command.
 **!rviewer** | Selects a random viewer in the channel.

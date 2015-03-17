@@ -7,6 +7,7 @@ Command                  | Description
 **!delplug `message`** | Delete's a plug from the plug list (Enter the full message to be deleted).
 **!plugoff** | Delete's all plugs from the plug list.
 **!plugtime `time`** | Set's the interval in minutes at which a plug will be outputted to the channel. (Default: 60 minutes)
+**!mtgousername `username`** | Set your MTGO Username to have MTGBot auto post when round starts, and enable the !status command.
 **!antispam `# of responses` `minutes`** | Sets how often I respond to non mods. Ex: "!antispam 3 5" would allow me to answer 3 times every 5 minutes for non mods. This is the default setting I come with.
 **!part** | This will have me leave the channel.
 
@@ -28,7 +29,7 @@ Command                  | Description
 **!modonly** | Toggles modonly mode, which only allows me to respond to mods. This feature is useful if I am is being abused. While it is harder now to spam because you can set !antispam settings, this can be used to tell me to only respond to mods. (If this is toggled on, subonly will be toggled off)
 **!subonly** | Toggles subscriber only mode, which only allows me to respond to mods or subscribers. This feature is useful in high user environments. (If this is toggled on, modonly will be toggled off)
 
-### Regular Commands
+### Commands
 Command                  | Description
 ------------------------ | -------------
 **!card `card` OR !`card`** | The basic use of MTGBot. Looks up a card, and displays oracle text.
@@ -38,6 +39,7 @@ Command                  | Description
 **!price `card`** | Looks up a card on [MTGO Traders](http://www.mtgotraders.com/), and fetches the MTGO prices. (Regular prices coming soon)
 **!random** | Selects a random card and displays the oracle text.
 **!spoiler `card`** | Fetches a card from the [MTG Salvation](http://www.mtgsalvation.com/) spoiler and displays the possible oracle text. If `card` is omitted, then it will show the latest 5 spoilers.</td>
+**!status** | Fetches the current MTGO tournament status for the current broadcaster.
 **!rating `mtgo username`** | Fetches the Composite, Constructed, and Limited rating of anyone on magic online. This currently only works in [MTGBot's Channel](http://twitch.tv/mtgcommanderbot) for non mods.
 **!flip** | Flips a coin.
 **!roll `n`** | Roll an n-sided die. As a broadcaster this could be really useful. Let's say you have a raffle with a list of users, each assigned a number (Let's say 17 for this example). You can do "!roll 17" and pick a person from your list.

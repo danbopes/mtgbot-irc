@@ -9,6 +9,7 @@ Command                  | Description
 **!plugtime `time`** | Set's the interval in minutes at which a plug will be outputted to the channel. (Default: 60 minutes)
 **!mtgousername `username`** | Set your MTGO Username to have MTGBot auto post when round starts, and enable the !status command.
 **!antispam `# of responses` `minutes`** | Sets how often I respond to non mods. Ex: "!antispam 3 5" would allow me to answer 3 times every 5 minutes for non mods. This is the default setting I come with.
+**!pricesource `source`** | Set's the source for the !price command. Current valid options: [MTGO Traders](http://www.mtgotraders.com/) or [DOJO](http://www.dojotradebots.com/) (Default is MTGO Traders).
 **!part** | This will have me leave the channel.
 
 ### Moderator Only Commands
@@ -36,7 +37,7 @@ Command                  | Description
 **!flavor `card`** | Fetches the flavor text(s) of a card.
 **!link `card`** | Fetches the magiccards.info link for a card.
 **!artist `card`** | Fetches the artist(s) of a card.
-**!price `card`** | Looks up a card on [MTGO Traders](http://www.mtgotraders.com/), and fetches the MTGO prices. (Regular prices coming soon)
+**!price `card`** | Looks up a card on based on your price source (See !pricesource in broadcaster commands), and fetches the MTGO prices. (Regular prices coming soon)
 **!random** | Selects a random card and displays the oracle text.
 **!spoiler `card`** | Fetches a card from the [MTG Salvation](http://www.mtgsalvation.com/) spoiler and displays the possible oracle text. If `card` is omitted, then it will show the latest 5 spoilers.</td>
 **!status** | Fetches the current MTGO tournament status for the current broadcaster.

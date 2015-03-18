@@ -4,12 +4,13 @@
 Command                  | Description
 ------------------------ | -------------
 **!addplug `message`** | Displays a message in the channel every X minutes. This is useful for broadcasters who want to throw out plugs, advertising clans, upcoming raffles, or simply to ask users to follow the channel.
-**!delplug `message`** | Delete's a plug from the plug list (Enter the full message to be deleted).
-**!plugoff** | Delete's all plugs from the plug list.
-**!plugtime `time`** | Set's the interval in minutes at which a plug will be outputted to the channel. (Default: 60 minutes)
-**!mtgousername `username`** | Set your MTGO Username to have MTGBot auto post when round starts, and enable the !status command.
+**!delplug `message`** | Deletes a plug from the plug list (Enter the full message to be deleted).
+**!plugoff** | Deletes all plugs from the plug list.
+**!plugtime `time`** | Sets the interval in minutes at which a plug will be outputted to the channel. (Default: 60 minutes)
+**!mtgousername `username`** | Set your MTGO Username to have me auto post when round starts, and enable the !status command.
+**!autopost `level`** | Sets the autopost level of how I post MTGO round starts in chat.<br />**Possible Levels:**<br />`off` - Disables autopost.<br />`minimal` - Will display the round, and who you're playing.<br />`ratings` - Will display the round, who you're playing, and their ratings.
 **!antispam `# of responses` `minutes`** | Sets how often I respond to non mods. Ex: "!antispam 3 5" would allow me to answer 3 times every 5 minutes for non mods. This is the default setting I come with.
-**!pricesource `source`** | Set's the source for the !price command. Current valid options: [MTGO Traders](http://www.mtgotraders.com/) or [DOJO](http://www.dojotradebots.com/) (Default is MTGO Traders).
+**!pricesource `source`** | Sets the source for the !price command. Current valid options: [MTGO Traders](http://www.mtgotraders.com/) or [DOJO](http://www.dojotradebots.com/) (Default is MTGO Traders).
 **!part** | This will have me leave the channel.
 
 ### Moderator Only Commands

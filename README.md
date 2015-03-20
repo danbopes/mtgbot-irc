@@ -41,7 +41,8 @@ Command                  | Description
 **!price `card`** | Looks up a card on based on your price source (See !pricesource in broadcaster commands), and fetches the MTGO prices. (Regular prices coming soon)
 **!random** | Selects a random card and displays the oracle text.
 **!spoiler `card`** | Fetches a card from the [MTG Salvation](http://www.mtgsalvation.com/) spoiler and displays the possible oracle text. If `card` is omitted, then it will show the latest 5 spoilers.</td>
-**!status** | Fetches the current MTGO tournament status for the current broadcaster.
+**!status OR !record** | Fetches the current MTGO tournament status for the current broadcaster.
+**!last** | Fetches the last MTGO tournament status (event and record) for the current broadcaster.
 **!rating `mtgo username`** | Fetches the Composite, Constructed, and Limited rating of anyone on magic online. This currently only works in [MTGBot's Channel](http://twitch.tv/mtgcommanderbot) for non mods.
 **!flip** | Flips a coin.
 **!roll `n`** | Roll an n-sided die. As a broadcaster this could be really useful. Let's say you have a raffle with a list of users, each assigned a number (Let's say 17 for this example). You can do "!roll 17" and pick a person from your list.

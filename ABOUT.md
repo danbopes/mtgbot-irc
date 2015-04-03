@@ -13,3 +13,7 @@ His name is Roland (mtgratingtester). You may have seen him lurking on Reddit, o
 **Can I still contact Danbopes?**
 
 I'm still available on twitter [@danbopes](http://twitter.com/danbopes), but I will not be around in Twitch chat until my ban is lifted.
+
+**Why is !`cardname` no longer working?**
+
+I decided that with so many bots in channels now-a-days (moobot, nightbot, fishbot, etc...), this functionality conflicted a lot with commands of these bots. Now, you will need to prefix the cardname with !card or !oracle, and it should work like normal. I may add functionality for streamers to re-enable this option for specific channels in the future.

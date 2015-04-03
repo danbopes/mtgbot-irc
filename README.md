@@ -1,4 +1,6 @@
-# MTGBot Commands
+# TheMTGBot Commands
+
+For more information on why MTGBot is now named TheMTGBot, please refer to [this document](https://github.com/danbopes/mtgbot-irc/blob/master/ABOUT.md).
 
 ### Broadcaster Only Commands
 Command                  | Description
@@ -34,7 +36,7 @@ Command                  | Description
 ### Commands
 Command                  | Description
 ------------------------ | -------------
-**!card `card` OR !`card`** | The basic use of MTGBot. Looks up a card, and displays oracle text.
+**!card `card` OR !oracle `card`** | The basic use of MTGBot. Looks up a card, and displays oracle text.
 **!flavor `card`** | Fetches the flavor text(s) of a card.
 **!link `card`** | Fetches the magiccards.info link for a card.
 **!artist `card`** | Fetches the artist(s) of a card.

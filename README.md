@@ -10,7 +10,7 @@ Command                  | Description
 **!plugoff** | Deletes all plugs from the plug list.
 **!plugtime `time`** | Sets the interval in minutes at which a plug will be outputted to the channel. (Default: 60 minutes)
 **!mtgousername `username`** | Set your MTGO Username to have me auto post when round starts, and enable the !status command.
-**!autopost `level`** | Sets the autopost level of how I post MTGO round starts in chat.<br />**Possible Levels:**<br />`off` - Disables autopost.<br />`minimal` - Will display the round, and who you're playing.<br />`ratings` - Will display the round, who you're playing, and their ratings.
+**!autopost `level`** | Sets the autopost level of how I post MTGO round starts in chat.<br />**Possible Levels:**<br />`off` - Disables autopost.<br />`minimal` - Will display the round, and who you're playing and their multi-queue status.<br />`ratings` (Default) - Will display the round, who you're playing, and their ratings and multi-queue status.
 **!antispam `# of responses` `minutes`** | Sets how often I respond to non mods. Ex: "!antispam 3 5" would allow me to answer 3 times every 5 minutes for non mods. This is the default setting I come with.
 **!pricesource `source`** | Sets the source for the !price command. Current valid options: [MTGO Traders](http://www.mtgotraders.com/) or [DOJO](http://www.dojotradebots.com/) (Default is MTGO Traders).
 **!part** | This will have me leave the channel.
@@ -53,4 +53,5 @@ Command                  | Description
 **!puntcount** | Displays the current !punt count.
 **!tableflip or !fliptable** | For those moments when you need to let your frustrations out.
 **!explain `what`** | Displays a commonly occurring message for newcomers. Some examples that you can use: mtgo, layers, standard, draft/drafting/sealed/limited, block, extended, modern, vintage, legacy, f8, any shard or guild.
+**!uptime** | Displays the stream uptime.
 **!help** | Displays a help message sending the user here.

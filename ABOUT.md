@@ -4,7 +4,7 @@ Sadly, my danbopes and mtgbot accounts were banned (Read more about it below), a
 
 **What was the ban about?**
 
-Back when I was attempting to become a Twitch Adminitrator, I was frustrated with how things were handled in my case, and I stupidly streamed non gaming content in order to get banned (And it worked). Unfortunately for me, I created additional accounts in order to evade this ban without ever resolving this original ban, which resulted in the situation getting much worse. I've attempted to make amends to the staff/admins, and they've asked me to wait 6 months of abiding by their rules before I can appeal again. During this time, I will attempt to support Roland in running MTGBot, and will abide by twitches terms of service by not evading my ban.
+Back when I was attempting to become a Twitch Administrator, I was frustrated with how things were handled in my case, and I stupidly streamed non gaming content in order to get banned (And it worked). Unfortunately for me, I created additional accounts in order to evade this ban without ever resolving this original ban, which resulted in the situation getting much worse. I've attempted to make amends to the staff/admins, and they've asked me to wait 6 months of abiding by their rules before I can appeal again. During this time, I will attempt to support Roland in running MTGBot, and will abide by twitches terms of service by not evading my ban.
 
 **Who is running MTGBot now?**
 

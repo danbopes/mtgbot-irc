@@ -9,6 +9,7 @@ Command                  | Description
 **!delplug `message`** | Deletes a plug from the plug list (Enter the full message to be deleted).
 **!plugoff** | Deletes all plugs from the plug list.
 **!plugtime `time`** | Sets the interval in minutes at which a plug will be outputted to the channel. (Default: 60 minutes)
+**!submessage `message`** | Set the message when a user subscribes to the channel. `message` is the message to send or 'off' to disable sub message. `%user%` will be replaced with the new subscriber name, and `%count%` will be replaced with the current count for the stream. Defaults to: 'BloodTrail Boros fist bump to you! Todays Storm Count: `%count%`'
 **!mtgousername `username`** | Set your MTGO Username to have me auto post when round starts, and enable the !status command.
 **!autopost `level`** | Sets the autopost level of how I post MTGO round starts in chat.<br />**Possible Levels:**<br />`off` - Disables autopost.<br />`minimal` - Will display the round, and who you're playing and their multi-queue status.<br />`ratings` (Default) - Will display the round, who you're playing, and their ratings and multi-queue status.
 **!antispam `# of responses` `minutes`** | Sets how often I respond to non mods. Ex: "!antispam 3 5" would allow me to answer 3 times every 5 minutes for non mods. This is the default setting I come with.

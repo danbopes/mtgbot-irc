@@ -14,6 +14,7 @@ Command                  | Description
 **!autopost `level`** | Sets the autopost level of how I post MTGO round starts in chat.<br />**Possible Levels:**<br />`off` - Disables autopost.<br />`minimal` - Will display the round, and who you're playing and their multi-queue status.<br />`ratings` (Default) - Will display the round, who you're playing, and their ratings and multi-queue status.
 **!antispam `# of responses` `minutes`** | Sets how often I respond to non mods. Ex: "!antispam 3 5" would allow me to answer 3 times every 5 minutes for non mods. This is the default setting I come with.
 **!pricesource `source`** | Sets the source for the !price command. Current valid options: [MTGO Traders](http://www.mtgotraders.com/), [DOJO](http://www.dojotradebots.com/) or [Cardhoarder](http://cardhoarder.com) (Default is MTGO Traders).
+**!puntthreshold `threshold`** | Set's the threshold for a punt to be considered a punt, or `0` to disable punts. (Defaults to `1`, which will automatically increment the punt counter).
 **!part** | This will have me leave the channel.
 
 ### Moderator Only Commands

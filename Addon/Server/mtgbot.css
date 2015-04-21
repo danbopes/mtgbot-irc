@@ -1,0 +1,31 @@
+.ember-chat .chat-room, .ember-chat .chat-rooms {
+    top: 340px !important;
+}
+
+.ember-chat .chat-room-list {
+	top: 340px;
+}
+
+.ember-chat > .chat-header > .button {
+	top: 305px;
+}
+
+#right_col {
+	width: 540px;
+}
+
+#mtg-img {
+	float: right;
+	height: 300px;
+}
+
+#mtg-container {
+    height: 300px;
+    /*background-color: grey;*/
+}
+
+#mtg-log {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 2px;
+}

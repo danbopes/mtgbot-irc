@@ -46,6 +46,8 @@ Command                  | Description
 **!random** | Selects a random card and displays the oracle text.
 **!spoiler `card`** | Fetches a card from the [MTG Salvation](http://www.mtgsalvation.com/) spoiler and displays the possible oracle text. If `card` is omitted, then it will show the latest 5 spoilers.</td>
 **!status OR !record** | Fetches the current MTGO tournament status for the current broadcaster.
+**!commanders** | Fetches the current commanders from the current game the broadcaster is playing in.
+**!commander OR !general** | Fetches the current broadcaster's commander and oracle text from the game they are playing in.
 **!last** | Fetches the last MTGO tournament status (event and record) for the current broadcaster.
 **!rating `mtgo username`** | Fetches the Composite, Constructed, and Limited rating of anyone on magic online. This currently only works in [MTGBot's Channel](http://twitch.tv/mtgcommanderbot) for non mods.
 **!flip** | Flips a coin.

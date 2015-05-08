@@ -15,6 +15,8 @@ Command                  | Description
 **!antispam `# of responses` `minutes`** | Sets how often I respond to non mods. Ex: "!antispam 3 5" would allow me to answer 3 times every 5 minutes for non mods. This is the default setting I come with.
 **!pricesource `source`** | Sets the source for the !price command. Current valid options: [MTGO Traders](http://www.mtgotraders.com/), [DOJO](http://www.dojotradebots.com/), [Cardhoarder](http://cardhoarder.com) or Modo_Mart (Default is MTGO Traders).
 **!puntthreshold `threshold`** | Set's the threshold for a punt to be considered a punt, or `0` to disable punts. (Defaults to `1`, which will automatically increment the punt counter).
+**!defaultcommand `command`** | Set's the default command the bot will respond to if a command isn't specified. For example typing: `!defaultcommand !card` will transform requests (That don't match a command) like this `!pack rat` to `!card pack rat` automatically.
+**!override `command` `userlevel`** | Overrides a command's default userlevel. For instance, typing `!override !catfacts moderators` will make `!catfacts` a mod only command. <br />**Possible userlevels:**<br />`moderators` - Moderators Only<br />`broadcaster` - Broadcaster only<br />`users` - Will allow any user to use the command<br />`default` - Reset the command back to it's default userlevel.
 **!part** | This will have me leave the channel.
 
 ### Moderator Only Commands

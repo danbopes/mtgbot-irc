@@ -16,4 +16,4 @@ I'm still available on twitter [@danbopes](http://twitter.com/danbopes), but I w
 
 **Why is !`cardname` no longer working?**
 
-I decided that with so many bots in channels now-a-days (moobot, nightbot, fishbot, etc...), this functionality conflicted a lot with commands of these bots. Now, you will need to prefix the cardname with !card or !oracle, and it should work like normal. I may add functionality for streamers to re-enable this option for specific channels in the future.
+I decided that with so many bots in channels now-a-days (moobot, nightbot, fishbot, etc...), this functionality conflicted a lot with commands of these bots. Now, you will need to prefix the cardname with !card or !oracle, and it should work like normal. To renable this functionality, you can type `!defaultcommand !card`.

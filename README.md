@@ -52,6 +52,7 @@ Command                  | Description
 **!commander OR !general** | Fetches the current broadcaster's commander and oracle text from the game they are playing in.
 **!last** | Fetches the last MTGO tournament status (event and record) for the current broadcaster.
 **!rating `mtgo username`** | Fetches the Composite, Constructed, and Limited rating of anyone on magic online. This currently only works in [MTGBot's Channel](http://twitch.tv/themtgbot) for non mods.
+**!q `searchterm` OR !query `searchterm`** | Queries the [Wolfram Alpha Computational Knowledge Engine](https://www.wolframalpha.com/) for `searchterm` and displays the result.
 **!flip** | Flips a coin.
 **!roll `n`** | Roll an n-sided die. As a broadcaster this could be really useful. Let's say you have a raffle with a list of users, each assigned a number (Let's say 17 for this example). You can do "!roll 17" and pick a person from your list.
 **!topdeck** | For those moments when you topdeck the perfect card.

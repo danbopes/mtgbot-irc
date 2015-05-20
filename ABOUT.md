@@ -6,6 +6,10 @@ Sadly, my danbopes and mtgbot accounts were banned (Read more about it below), a
 
 Back when I was attempting to become a Twitch Administrator, I was frustrated with how things were handled in my case, and I stupidly streamed non gaming content in order to get banned (And it worked). Unfortunately for me, I created additional accounts in order to evade this ban without ever resolving this original ban, which resulted in the situation getting much worse. I've attempted to make amends to the staff/admins, and they've asked me to wait 6 months of abiding by their rules before I can appeal again. During this time, I will attempt to support Roland in running MTGBot, and will abide by twitches terms of service by not evading my ban.
 
+**Didn't you get banned from MTGO as well?**
+
+There was one point during while building out a cube drafting application, my account was temporarily suspended from Magic: Online (They refered to Section 9 of the ToS, but never went into more detail). After working with them, my 1 month suspension was reduced to 2 weeks, and both the cube drafting and draft viewer portions were removed from MTGBot. I've handed over my contact info, and intend to follow any and all direction they give me, if they dislike any portion of MTGBot. 
+
 **Who is running MTGBot now?**
 
 His name is Roland (mtgratingtester). You may have seen him lurking on Reddit, or read his draft stats on mtggoldfish. You can find him on twitch [here](http://twitch.tv/mtgratingtester), or on twitter [here](https://twitter.com/mtgratingtester). He helped me with the original MTGO integration with the !rating command, and has been instrumental with making MTGBot what it is today.

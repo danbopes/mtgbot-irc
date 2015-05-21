@@ -36,7 +36,7 @@ Command                  | Description
 **!reglist** | Display the current list of regulars.
 **!modonly** | Toggles modonly mode, which only allows me to respond to mods. This feature is useful if I am is being abused. While it is harder now to spam because you can set !antispam settings, this can be used to tell me to only respond to mods. (If this is toggled on, subonly will be toggled off)
 **!subonly** | Toggles subscriber only mode, which only allows me to respond to mods or subscribers. This feature is useful in high user environments. (If this is toggled on, modonly will be toggled off)
-**!trivia start `number`** | Begins a Trivia game of `number` questions. (Default is 10 questions)
+**!trivia `number`** | Begins a Trivia game of `number` questions. (Default is 10 questions)
 **!trivia stop** | Stops the current game of Trivia.
 **!delquote `number` OR `text`** | Deletes the quote with that number, or matching that text
 

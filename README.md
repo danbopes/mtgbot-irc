@@ -49,6 +49,7 @@ Command                  | Description
 **!link `card`** | Fetches the magiccards.info link for a card.
 **!artist `card`** | Fetches the artist(s) of a card.
 **!price `card`** | Looks up a card on based on your price source (See !pricesource in broadcaster commands), and fetches the MTGO prices. (Regular prices coming soon)
+**!top5** | Displays the trivia leaderboard.
 **!addquote `quote`** | Adds a quote for the stream.
 **!quote `number`** | Shows a quote from the stream. If `number` isn't specified, shows a random quote.
 **!random** | Selects a random card and displays the oracle text.

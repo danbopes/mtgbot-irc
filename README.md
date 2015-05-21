@@ -36,6 +36,10 @@ Command                  | Description
 **!reglist** | Display the current list of regulars.
 **!modonly** | Toggles modonly mode, which only allows me to respond to mods. This feature is useful if I am is being abused. While it is harder now to spam because you can set !antispam settings, this can be used to tell me to only respond to mods. (If this is toggled on, subonly will be toggled off)
 **!subonly** | Toggles subscriber only mode, which only allows me to respond to mods or subscribers. This feature is useful in high user environments. (If this is toggled on, modonly will be toggled off)
+**!trivia start `number`** | Begins a Trivia game of [number] questions (the default number is 10)
+**!trivia stop** | Stops the current game of Trivia
+**!delquote `number` OR `text`** | Deletes the quote with that number, or matching that text
+
 
 ### Commands
 Command                  | Description
@@ -45,6 +49,8 @@ Command                  | Description
 **!link `card`** | Fetches the magiccards.info link for a card.
 **!artist `card`** | Fetches the artist(s) of a card.
 **!price `card`** | Looks up a card on based on your price source (See !pricesource in broadcaster commands), and fetches the MTGO prices. (Regular prices coming soon)
+**!addquote `quote`** | Adds a quote for the stream
+**!quote** | Shows a random quote from the stream
 **!random** | Selects a random card and displays the oracle text.
 **!spoiler `card`** | Fetches a card from the [MTG Salvation](http://www.mtgsalvation.com/) spoiler and displays the possible oracle text. If `card` is omitted, then it will show the latest 5 spoilers.</td>
 **!status OR !record** | Fetches the current MTGO tournament status for the current broadcaster.
@@ -52,6 +58,7 @@ Command                  | Description
 **!commander OR !general** | Fetches the current broadcaster's commander and oracle text from the game they are playing in.
 **!last** | Fetches the last MTGO tournament status (event and record) for the current broadcaster.
 **!rating `mtgo username`** | Fetches the Composite, Constructed, and Limited rating of anyone on magic online. This currently only works in [MTGBot's Channel](http://twitch.tv/themtgbot) for non mods.
+**!`format` `mtgo username`** | Displays the most recent deck results for the chosen player. Supported formats are Standard, Modern, Legacy, Vintage and Pauper
 **!q `searchterm` OR !query `searchterm`** | Queries the [Wolfram Alpha Computational Knowledge Engine](https://www.wolframalpha.com/) for `searchterm` and displays the result.
 **!flip** | Flips a coin.
 **!roll `n`** | Roll an n-sided die. As a broadcaster this could be really useful. Let's say you have a raffle with a list of users, each assigned a number (Let's say 17 for this example). You can do "!roll 17" and pick a person from your list.
